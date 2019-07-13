@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/img_poster"
+        android:layout_width="150dp"
+        android:layout_height="220dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/img_poster"
+        android:text="Judul Film :"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/tv1"
+        android:layout_toRightOf="@id/img_poster"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/film"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/img_poster"
+        android:layout_below="@id/tv_nama"
+        android:text="Film Director :"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_direc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/tv2"
+        android:layout_toRightOf="@id/img_poster"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/director"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+    android:id="@+id/tv3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="26dp"
+    android:layout_toEndOf="@+id/img_poster"
+    android:layout_below="@id/tv_direc"
+    android:text="Rilis Film :"
+    android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_rilis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/tv3"
+        android:layout_toRightOf="@id/img_poster"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/rilis"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/img_poster"
+        android:layout_below="@id/tv_rilis"
+        android:text="Lama Film :"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_durasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/tv4"
+        android:layout_toRightOf="@id/img_poster"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/durasi"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tv_desk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_below="@id/img_poster"
+        android:text="@string/lorem"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>
